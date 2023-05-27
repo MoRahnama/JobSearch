@@ -1,0 +1,51 @@
+Mohammadali Rahnama
+
+Answers for the Off-site Written Software Development QA Engineer Interview
+
+May 2023
+
+Modules not part of a standard installation:
+
+pip install schedule
+pip install pandas
+pip install sqlalchemy
+pip install selenium
+pip install requests
+
+The webdriver module is part of Selenium, which you've already installed in the previous step. However, to use it, you'll also need to download the appropriate WebDriver binary for your browser (e.g., ChromeDriver for Chrome) and add it to your system's PATH. You can download ChromeDriver from https://sites.google.com/a/chromium.org/chromedriver/.
+Please note that you need to choose the version of ChromeDriver that matches the version of your Chrome browser.
+
+Once you have downloaded and unzipped it, you need to add its location to your system's PATH. The process for this varies by operating system.
+
+Q1. The extract() function is implemented in the NVD.py module. It reads a provided NVD JSON file, parses the JSON content into a pandas dataframe, and returns this data structure.
+
+Q2. The nvd_extract.py script has been implemented to handle NVD JSON files. It prints basic usage information if run without arguments, imports the NVD module, accepts one or more NVD JSON files from the command line, and calls the extract() function from the NVD module for each provided JSON file. The returned data is printed to STDOUT.
+
+Q3. Given that the update() function has been implemented, downloading NVD JSON files may be done automatically, and the nvd_extract.py script can be run on the downloaded data.
+
+Q4. Here's what may occur in each of the cases you've described when calling the extract() function in the NVD.py module:
+
+Empty file: If extract() is called with an empty file, the pd.read_json() function will raise a ValueError with the message "No JSON object could be decoded". The extract() function will catch this exception and log an error message using the logging module, and then return None.
+
+Non-JSON file: If extract() is called with a non-empty file that is not a JSON file, the pd.read_json() function will raise a JSONDecodeError with the message "Expecting value: line 1 column 1 (char 0)". The extract() function will catch this exception and log an error message using the logging module, and then return None.
+
+File does not exist: If extract() is called with a file that does not exist, the pd.read_json() function will raise a FileNotFoundError with the message "[Errno 2] No such file or directory". The extract() function will catch this exception and log an error message using the logging module, and then return None.
+
+Q5. The following SQL command could be used to create a new database table for storing the extracted NVD data:
+
+CREATE TABLE nvd_entries (
+    ID TEXT PRIMARY KEY,
+    baseSeverity TEXT,
+    publishedDate TEXT,
+    lastModifiedDate TEXT
+);
+
+Q6. The save2db() function has been added to the NVD module and uses panda's to_sql function. It accepts the output of extract() and database connection information, connects to the specified database, creates a new database table, and saves the extracted NVD entry data to this table.
+
+Q7. The vuln2db.py script has been created. It accepts one or more NVD JSON files as command line arguments, and for each file, it calls extract() and save2db() to save the extracted data to a database.
+
+BQ2. The update() function has been implemented in the NVD module. It uses the selenium module and visits the NIST feed website locates the JSON Feeds table which is inside the div id="divJSONFeeds", downloads the NVD JSON files, save the update timestamps to a text file and When called again, it compares the saved timestamps with the current timestamps on the website and updates any files that have been modified.
+
+Next the Automate_nvd.py script for the years 2017 to 2021 calls extract() and save2db() for each downloaded file, this script can be executed manually or automaticaly evey 1 hour.
+
+BQ3. Every function including the update() function has error checking and handling mechanisms, processing logs, and documentation.

@@ -1,0 +1,246 @@
+2023-05-12 03:48:37,575 INFO automate_nvd Running the script...
+2023-05-12 03:48:37,592 INFO selenium.webdriver.common.selenium_manager Applicable driver not found; attempting to install with Selenium Manager (Beta)
+2023-05-12 03:48:42,408 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-modified.json.zip
+2023-05-12 03:48:42,776 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-recent.json.zip
+2023-05-12 03:48:43,423 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2023.json.zip
+2023-05-12 03:48:44,608 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2022.json.zip
+2023-05-12 03:48:45,877 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2021.json.zip
+2023-05-12 03:48:47,090 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2020.json.zip
+2023-05-12 03:48:48,204 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2019.json.zip
+2023-05-12 03:48:49,065 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2018.json.zip
+2023-05-12 03:48:50,019 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2017.json.zip
+2023-05-12 03:48:50,806 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2016.json.zip
+2023-05-12 03:48:51,601 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2015.json.zip
+2023-05-12 03:48:52,373 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2014.json.zip
+2023-05-12 03:48:53,270 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2013.json.zip
+2023-05-12 03:48:54,084 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2012.json.zip
+2023-05-12 03:48:54,826 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2011.json.zip
+2023-05-12 03:48:55,616 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2010.json.zip
+2023-05-12 03:48:56,304 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2009.json.zip
+2023-05-12 03:48:57,060 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2008.json.zip
+2023-05-12 03:48:57,801 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2007.json.zip
+2023-05-12 03:48:58,540 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2006.json.zip
+2023-05-12 03:48:59,184 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2005.json.zip
+2023-05-12 03:48:59,743 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2004.json.zip
+2023-05-12 03:49:00,234 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2003.json.zip
+2023-05-12 03:49:00,886 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2002.json.zip
+2023-05-12 03:49:00,887 INFO download File processing completed successfully.
+2023-05-12 03:49:07,041 INFO extract Processing file: download\nvdcve-1.1-2017.json
+2023-05-12 03:49:08,901 INFO extract File processed successfully
+2023-05-12 03:49:08,902 INFO save2db Connecting to database...
+2023-05-12 03:49:15,961 INFO save2db Data saved to database successfully.
+2023-05-12 03:49:15,965 INFO extract Processing file: download\nvdcve-1.1-2018.json
+2023-05-12 03:49:18,002 INFO extract File processed successfully
+2023-05-12 03:49:18,122 INFO save2db Connecting to database...
+2023-05-12 03:49:24,978 INFO save2db Data saved to database successfully.
+2023-05-12 03:49:24,983 INFO extract Processing file: download\nvdcve-1.1-2019.json
+2023-05-12 03:49:27,787 INFO extract File processed successfully
+2023-05-12 03:49:27,903 INFO save2db Connecting to database...
+2023-05-12 03:49:35,019 INFO save2db Data saved to database successfully.
+2023-05-12 03:49:35,024 INFO extract Processing file: download\nvdcve-1.1-2020.json
+2023-05-12 03:49:38,189 INFO extract File processed successfully
+2023-05-12 03:49:38,329 INFO save2db Connecting to database...
+2023-05-12 03:49:46,059 INFO save2db Data saved to database successfully.
+2023-05-12 03:49:46,066 INFO extract Processing file: download\nvdcve-1.1-2021.json
+2023-05-12 03:49:49,820 INFO extract File processed successfully
+2023-05-12 03:49:49,998 INFO save2db Connecting to database...
+2023-05-12 03:49:59,096 INFO save2db Data saved to database successfully.
+2023-05-12 03:53:43,165 INFO extract Processing file: ./download\fake.json
+2023-05-12 03:53:43,166 ERROR extract File not found: ./download\fake.json
+2023-05-12 03:53:43,167 ERROR vuln2db Could not extract data from ./download\fake.json
+2023-05-12 03:53:43,167 INFO extract Processing file: download\nvdcve-1.1-2023.json
+2023-05-12 03:53:43,641 INFO extract File processed successfully
+2023-05-12 03:53:43,642 INFO save2db Connecting to database...
+2023-05-12 03:53:46,453 INFO save2db Data saved to database successfully.
+2023-05-12 03:54:00,561 INFO extract Processing file: ./download/nvdcve-1.1-2018.json
+2023-05-12 03:54:02,385 INFO extract File processed successfully
+2023-05-12 03:54:02,386 INFO nvd_extract Processing file: ./download/nvdcve-1.1-2018.json
+2023-05-12 03:54:02,387 INFO nvd_extract File processed successfully
+2023-05-12 03:54:02,432 INFO extract Processing file: download\nvdcve-1.1-2020.json
+2023-05-12 03:54:06,392 INFO extract File processed successfully
+2023-05-12 03:54:06,510 INFO nvd_extract Processing file: download\nvdcve-1.1-2020.json
+2023-05-12 03:54:06,510 INFO nvd_extract File processed successfully
+2023-05-12 03:55:15,768 INFO automate_nvd Running the script don't close the chrome windows that pops up...
+2023-05-12 03:55:15,789 INFO selenium.webdriver.common.selenium_manager Applicable driver not found; attempting to install with Selenium Manager (Beta)
+2023-05-12 03:55:20,466 INFO download No new updates found. Skipping download.
+2023-05-12 03:55:26,684 WARNING urllib3.connectionpool Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000236A6C24510>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c0ba2e3e18cd5f361154768707c3e334
+2023-05-12 03:55:30,759 WARNING urllib3.connectionpool Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000236A6C25A10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c0ba2e3e18cd5f361154768707c3e334
+2023-05-12 03:55:34,865 WARNING urllib3.connectionpool Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000236A6C26410>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c0ba2e3e18cd5f361154768707c3e334
+2023-05-12 03:55:43,037 INFO extract Processing file: download\nvdcve-1.1-2017.json
+2023-05-12 03:55:49,026 INFO extract File processed successfully
+2023-05-12 03:55:49,026 INFO save2db Connecting to database...
+2023-05-12 03:55:56,184 INFO save2db Data saved to database successfully.
+2023-05-12 03:55:56,190 INFO extract Processing file: download\nvdcve-1.1-2018.json
+2023-05-12 03:55:58,201 INFO extract File processed successfully
+2023-05-12 03:55:58,325 INFO save2db Connecting to database...
+2023-05-12 03:56:05,456 INFO save2db Data saved to database successfully.
+2023-05-12 03:56:05,461 INFO extract Processing file: download\nvdcve-1.1-2019.json
+2023-05-12 03:56:08,530 INFO extract File processed successfully
+2023-05-12 03:56:08,676 INFO save2db Connecting to database...
+2023-05-12 03:56:16,144 INFO save2db Data saved to database successfully.
+2023-05-12 03:56:16,149 INFO extract Processing file: download\nvdcve-1.1-2020.json
+2023-05-12 03:56:19,804 INFO extract File processed successfully
+2023-05-12 03:56:19,981 INFO save2db Connecting to database...
+2023-05-12 03:56:29,013 INFO save2db Data saved to database successfully.
+2023-05-12 03:56:29,018 INFO extract Processing file: download\nvdcve-1.1-2021.json
+2023-05-12 03:56:33,084 INFO extract File processed successfully
+2023-05-12 03:56:33,287 INFO save2db Connecting to database...
+2023-05-12 03:56:42,965 INFO save2db Data saved to database successfully.
+2023-05-12 04:02:32,140 INFO extract Processing file: ./download/nvdcve-1.1-2018.json
+2023-05-12 04:02:33,911 INFO extract File processed successfully
+2023-05-12 04:02:33,912 INFO nvd_extract Processing file: ./download/nvdcve-1.1-2018.json
+2023-05-12 04:02:33,912 INFO nvd_extract File processed successfully
+2023-05-12 04:02:33,962 INFO extract Processing file: download\nvdcve-1.1-2020.json
+2023-05-12 04:02:38,114 INFO extract File processed successfully
+2023-05-12 04:02:38,227 INFO nvd_extract Processing file: download\nvdcve-1.1-2020.json
+2023-05-12 04:02:38,228 INFO nvd_extract File processed successfully
+2023-05-12 04:03:02,397 INFO automate_nvd Running the script don't close the browser window that pops up...
+2023-05-12 04:03:02,415 INFO selenium.webdriver.common.selenium_manager Applicable driver not found; attempting to install with Selenium Manager (Beta)
+2023-05-12 04:03:07,490 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-modified.json.zip
+2023-05-12 04:03:07,868 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-recent.json.zip
+2023-05-12 04:03:08,542 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2023.json.zip
+2023-05-12 04:03:09,778 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2022.json.zip
+2023-05-12 04:03:11,170 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2021.json.zip
+2023-05-12 04:03:12,482 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2020.json.zip
+2023-05-12 04:03:13,501 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2019.json.zip
+2023-05-12 04:03:14,709 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2018.json.zip
+2023-05-12 04:03:15,735 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2017.json.zip
+2023-05-12 04:03:16,573 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2016.json.zip
+2023-05-12 04:03:17,326 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2015.json.zip
+2023-05-12 04:03:18,133 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2014.json.zip
+2023-05-12 04:03:18,952 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2013.json.zip
+2023-05-12 04:03:19,892 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2012.json.zip
+2023-05-12 04:03:20,670 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2011.json.zip
+2023-05-12 04:03:21,439 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2010.json.zip
+2023-05-12 04:03:22,160 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2009.json.zip
+2023-05-12 04:03:22,880 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2008.json.zip
+2023-05-12 04:03:23,578 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2007.json.zip
+2023-05-12 04:03:24,385 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2006.json.zip
+2023-05-12 04:03:25,037 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2005.json.zip
+2023-05-12 04:03:25,648 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2004.json.zip
+2023-05-12 04:03:26,178 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2003.json.zip
+2023-05-12 04:03:26,911 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2002.json.zip
+2023-05-12 04:03:26,913 INFO download File processing completed successfully.
+2023-05-12 04:03:33,158 INFO extract Processing file: download\nvdcve-1.1-2017.json
+2023-05-12 04:03:35,155 INFO extract File processed successfully
+2023-05-12 04:03:35,155 INFO save2db Connecting to database...
+2023-05-12 04:03:42,204 INFO save2db Data saved to database successfully.
+2023-05-12 04:03:42,209 INFO extract Processing file: download\nvdcve-1.1-2018.json
+2023-05-12 04:03:44,206 INFO extract File processed successfully
+2023-05-12 04:03:44,353 INFO save2db Connecting to database...
+2023-05-12 04:03:51,561 INFO save2db Data saved to database successfully.
+2023-05-12 04:03:51,567 INFO extract Processing file: download\nvdcve-1.1-2019.json
+2023-05-12 04:03:54,433 INFO extract File processed successfully
+2023-05-12 04:03:54,563 INFO save2db Connecting to database...
+2023-05-12 04:04:01,769 INFO save2db Data saved to database successfully.
+2023-05-12 04:04:01,774 INFO extract Processing file: download\nvdcve-1.1-2020.json
+2023-05-12 04:04:05,029 INFO extract File processed successfully
+2023-05-12 04:04:05,179 INFO save2db Connecting to database...
+2023-05-12 04:04:13,712 INFO save2db Data saved to database successfully.
+2023-05-12 04:04:13,719 INFO extract Processing file: download\nvdcve-1.1-2021.json
+2023-05-12 04:04:17,521 INFO extract File processed successfully
+2023-05-12 04:04:17,686 INFO save2db Connecting to database...
+2023-05-12 04:04:27,005 INFO save2db Data saved to database successfully.
+2023-05-12 04:04:50,046 INFO automate_nvd Running the script don't close the browser window that pops up...
+2023-05-12 04:04:50,065 INFO selenium.webdriver.common.selenium_manager Applicable driver not found; attempting to install with Selenium Manager (Beta)
+2023-05-12 04:04:54,280 INFO download No new updates found. Skipping download.
+2023-05-12 04:05:00,504 WARNING urllib3.connectionpool Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022BE7824390>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f5ea05e0c696157facc54472324de604
+2023-05-12 04:05:04,614 WARNING urllib3.connectionpool Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022BE7824F90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f5ea05e0c696157facc54472324de604
+2023-05-12 04:05:08,691 WARNING urllib3.connectionpool Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022BE7825C50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f5ea05e0c696157facc54472324de604
+2023-05-12 04:05:16,832 INFO extract Processing file: download\nvdcve-1.1-2017.json
+2023-05-12 04:05:22,951 INFO extract File processed successfully
+2023-05-12 04:05:22,952 INFO save2db Connecting to database...
+2023-05-12 04:05:30,189 INFO save2db Data saved to database successfully.
+2023-05-12 04:05:30,193 INFO extract Processing file: download\nvdcve-1.1-2018.json
+2023-05-12 04:05:32,134 INFO extract File processed successfully
+2023-05-12 04:05:32,245 INFO save2db Connecting to database...
+2023-05-12 04:05:39,092 INFO save2db Data saved to database successfully.
+2023-05-12 04:05:39,098 INFO extract Processing file: download\nvdcve-1.1-2019.json
+2023-05-12 04:05:41,861 INFO extract File processed successfully
+2023-05-12 04:05:41,987 INFO save2db Connecting to database...
+2023-05-12 04:05:50,084 INFO save2db Data saved to database successfully.
+2023-05-12 04:05:50,092 INFO extract Processing file: download\nvdcve-1.1-2020.json
+2023-05-12 04:05:53,571 INFO extract File processed successfully
+2023-05-12 04:05:53,717 INFO save2db Connecting to database...
+2023-05-12 04:06:01,806 INFO save2db Data saved to database successfully.
+2023-05-12 04:06:01,813 INFO extract Processing file: download\nvdcve-1.1-2021.json
+2023-05-12 04:06:05,605 INFO extract File processed successfully
+2023-05-12 04:06:05,786 INFO save2db Connecting to database...
+2023-05-12 04:06:14,349 INFO save2db Data saved to database successfully.
+2023-05-12 04:06:42,555 INFO extract Processing file: ./download/nvdcve-1.1-2018.json
+2023-05-12 04:06:44,313 INFO extract File processed successfully
+2023-05-12 04:06:44,314 INFO nvd_extract Processing file: ./download/nvdcve-1.1-2018.json
+2023-05-12 04:06:44,315 INFO nvd_extract File processed successfully
+2023-05-12 04:06:44,354 INFO extract Processing file: download\nvdcve-1.1-2020.json
+2023-05-12 04:06:47,928 INFO extract File processed successfully
+2023-05-12 04:06:48,038 INFO nvd_extract Processing file: download\nvdcve-1.1-2020.json
+2023-05-12 04:06:48,039 INFO nvd_extract File processed successfully
+2023-05-12 04:07:17,621 INFO extract Processing file: ./download\fake.json
+2023-05-12 04:07:17,622 ERROR extract File not found: ./download\fake.json
+2023-05-12 04:07:17,623 ERROR vuln2db Could not extract data from ./download\fake.json
+2023-05-12 04:07:17,623 INFO extract Processing file: download\nvdcve-1.1-2023.json
+2023-05-12 04:07:18,101 INFO extract File processed successfully
+2023-05-12 04:07:18,102 INFO save2db Connecting to database...
+2023-05-12 04:07:20,781 INFO save2db Data saved to database successfully.
+2023-05-12 04:50:20,001 INFO automate_nvd Running the script don't close the browser window that pops up...
+2023-05-12 04:50:20,020 INFO selenium.webdriver.common.selenium_manager Applicable driver not found; attempting to install with Selenium Manager (Beta)
+2023-05-12 04:50:25,304 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-modified.json.zip
+2023-05-12 04:50:25,740 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-recent.json.zip
+2023-05-12 04:50:26,546 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2023.json.zip
+2023-05-12 04:50:27,817 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2022.json.zip
+2023-05-12 04:50:29,118 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2021.json.zip
+2023-05-12 04:50:30,419 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2020.json.zip
+2023-05-12 04:50:31,568 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2019.json.zip
+2023-05-12 04:50:32,714 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2018.json.zip
+2023-05-12 04:50:33,785 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2017.json.zip
+2023-05-12 04:50:34,810 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2016.json.zip
+2023-05-12 04:50:35,685 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2015.json.zip
+2023-05-12 04:50:36,703 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2014.json.zip
+2023-05-12 04:50:37,689 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2013.json.zip
+2023-05-12 04:50:38,591 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2012.json.zip
+2023-05-12 04:50:39,461 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2011.json.zip
+2023-05-12 04:50:40,367 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2010.json.zip
+2023-05-12 04:50:41,163 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2009.json.zip
+2023-05-12 04:50:42,062 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2008.json.zip
+2023-05-12 04:50:42,925 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2007.json.zip
+2023-05-12 04:50:43,748 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2006.json.zip
+2023-05-12 04:50:44,564 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2005.json.zip
+2023-05-12 04:50:45,209 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2004.json.zip
+2023-05-12 04:50:45,782 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2003.json.zip
+2023-05-12 04:50:46,523 INFO download Extracted: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-2002.json.zip
+2023-05-12 04:50:46,524 INFO download File processing completed successfully.
+2023-05-12 04:50:52,729 INFO extract Processing file: download\nvdcve-1.1-2017.json
+2023-05-12 04:50:54,502 INFO extract File processed successfully
+2023-05-12 04:50:54,502 INFO save2db Connecting to database...
+2023-05-12 04:51:01,641 INFO save2db Data saved to database successfully.
+2023-05-12 04:51:01,645 INFO extract Processing file: download\nvdcve-1.1-2018.json
+2023-05-12 04:51:03,740 INFO extract File processed successfully
+2023-05-12 04:51:03,872 INFO save2db Connecting to database...
+2023-05-12 04:51:11,412 INFO save2db Data saved to database successfully.
+2023-05-12 04:51:11,417 INFO extract Processing file: download\nvdcve-1.1-2019.json
+2023-05-12 04:51:14,386 INFO extract File processed successfully
+2023-05-12 04:51:14,548 INFO save2db Connecting to database...
+2023-05-12 04:51:21,849 INFO save2db Data saved to database successfully.
+2023-05-12 04:51:21,855 INFO extract Processing file: download\nvdcve-1.1-2020.json
+2023-05-12 04:51:25,297 INFO extract File processed successfully
+2023-05-12 04:51:25,447 INFO save2db Connecting to database...
+2023-05-12 04:51:33,584 INFO save2db Data saved to database successfully.
+2023-05-12 04:51:33,590 INFO extract Processing file: download\nvdcve-1.1-2021.json
+2023-05-12 04:51:37,710 INFO extract File processed successfully
+2023-05-12 04:51:37,889 INFO save2db Connecting to database...
+2023-05-12 04:51:47,688 INFO save2db Data saved to database successfully.
+2023-05-12 04:51:57,177 INFO extract Processing file: ./download\fake.json
+2023-05-12 04:51:57,178 ERROR extract File not found: ./download\fake.json
+2023-05-12 04:51:57,178 ERROR vuln2db Could not extract data from ./download\fake.json
+2023-05-12 04:51:57,179 INFO extract Processing file: download\nvdcve-1.1-2023.json
+2023-05-12 04:51:57,685 INFO extract File processed successfully
+2023-05-12 04:51:57,686 INFO save2db Connecting to database...
+2023-05-12 04:52:00,531 INFO save2db Data saved to database successfully.
+2023-05-12 04:52:06,236 INFO extract Processing file: ./download/nvdcve-1.1-2018.json
+2023-05-12 04:52:08,062 INFO extract File processed successfully
+2023-05-12 04:52:08,063 INFO nvd_extract Processing file: ./download/nvdcve-1.1-2018.json
+2023-05-12 04:52:08,063 INFO nvd_extract File processed successfully
+2023-05-12 04:52:08,108 INFO extract Processing file: download\nvdcve-1.1-2020.json
+2023-05-12 04:52:11,788 INFO extract File processed successfully
+2023-05-12 04:52:11,906 INFO nvd_extract Processing file: download\nvdcve-1.1-2020.json
+2023-05-12 04:52:11,906 INFO nvd_extract File processed successfully
