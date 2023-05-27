@@ -1,0 +1,17 @@
+{
+  "name": "fredericton",
+  "version": "1.0.0",
+  "description": "Siemens Fredericton Interview Code Sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohammadali Rahnama",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^17.1.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^12.12.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
